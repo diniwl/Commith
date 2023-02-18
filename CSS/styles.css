@@ -1,0 +1,163 @@
+#title {
+    background-color: #851DE0;
+    color: #fff;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.img-mockup {
+    width: 25%;
+    margin-left: 100px;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icons {
+    margin-bottom: 1rem;
+    color: #C355F5;
+}
+
+.icons:hover {
+    color: #851DE0;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #851DE0;
+    color: #fff;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.img-profile { 
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #851DE0;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 10px;
+}
+
+.dc-logo {
+    width: 8%;
+    margin: 20px 20px 10px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .img-mockup {
+        position: static;
+        transform: rotate(0);
+        width: 65%;
+    }
+}
+
+#cta {
+    background-color: #851DE0;
+    text-align: center;
+    padding: 10% 15%;
+}
+
+.tagline {
+    color: white;
+}
+
+.download-ft {
+    margin: 7% 3% 5% 0;
+}
+
+#footer {
+    text-align: center;
+    margin: 7%;
+}
+
+.ft-icons {
+    margin: 3% 1%;
+}
